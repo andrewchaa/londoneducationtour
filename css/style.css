@@ -12,7 +12,7 @@
 	2.9 MODAL
 	2.10 PANEL
 	2.11 PRICE RANGE SLIDER
-3. HEADER 
+3. HEADER
 	3.1 HEADER TRANSPARENT
 	3.2 LIGHT HEADER
 	3.3 DARK HEADER
@@ -1470,7 +1470,7 @@ a:focus {
 
 .navbar-brand {
   float: left;
-  background-image: url("../img/logo.png");
+  /*background-image: url("../img/logo.png");*/
   background-position: 15px 19px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2731,7 +2731,7 @@ a:focus {
 
 .navbar-brand {
   float: left;
-  background-image: url("../img/logo.png");
+  /*background-image: url("../img/logo.png");*/
   background-position: 15px 19px;
   background-repeat: no-repeat;
   background-size: cover;
