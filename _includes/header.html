@@ -14,13 +14,13 @@
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <div id="menu-dialog" class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="active dropdown singleDrop">
-            <a href="index.html">홈 (Home)</a>
+            <a href="/">홈 (Home)</a>
           </li>
           <li class="dropdown singleDrop">
-            <a href="tour-schedule.html" role="button" aria-haspopup="true" aria-expanded="false">
+            <a href="#tour-schedule" role="button" aria-haspopup="true" aria-expanded="false" onclick="$('#menu-dialog').collapse('hide')">
               투어 일정 (Tour schedule)</a>
           </li>
         </ul>
