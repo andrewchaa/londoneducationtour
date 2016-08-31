@@ -1,0 +1,34 @@
+<!-- Universities -->
+<section class="whiteSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="sectionTitle">
+          <h2><span>Universities</span></h2>
+          <p><a name="universities">함께 방문할 대학 및 장소들입니다.</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="filter-container isotopeFilters">
+          <ul class="list-inline filter">
+            <li class="active"><a href="#" data-filter="*">All Places</a></li>
+            <li><a href="#" data-filter=".oxford">옥스포드</a></li>
+            <li><a href="#" data-filter=".cambridge">캠브리지</a></li>
+            <li><a href="#" data-filter=".british-museum">대영 박물관</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row isotopeContainer">
+        {% include university-figure.html image="img/universities/oxford-1.jpg" title="Oxford" keyword="oxford" %}
+        {% include university-figure.html image="img/universities/oxford-2.jpg" title="Oxford" keyword="oxford" %}
+        {% include university-figure.html image="img/universities/oxford-3.jpg" title="Oxford" keyword="oxford" %}
+        {% include university-figure.html image="img/universities/cambridge-1.jpg" title="Cambrdige" keyword="cambridge" %}
+        {% include university-figure.html image="img/universities/cambridge-2.jpg" title="Cambrdige" keyword="cambridge" %}
+        {% include university-figure.html image="img/universities/cambridge-3.jpg" title="Cambrdige" keyword="cambridge" %}
+        {% include university-figure.html image="img/universities/british-museum-1" title="British museum" keyword="british-museum" %}
+    </div>
+  </div>
+</section>
